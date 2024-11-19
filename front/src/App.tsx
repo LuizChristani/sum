@@ -22,7 +22,6 @@ const App: React.FC = () => {
         <Routes>
         <Route path="/sunbridge-energy" element={<Principal />} />
           <Route path="/" element={<Navigate to="/sunbridge-energy" replace />} />
-          <Route path="/login" element={<Login />} />
           <Route path="/clientes" element={<PrivateRoute><Cliente /></PrivateRoute>} />
           <Route path="/clientes/:id" element={<PrivateRoute><ClienteDetalhes /></PrivateRoute>} />
           <Route path="/cliente/novo" element={<PrivateRoute><NovoCliente /></PrivateRoute>} />
