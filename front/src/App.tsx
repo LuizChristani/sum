@@ -21,14 +21,14 @@ const App: React.FC = () => {
         <Routes>
         <Route path="/sunbridge-energy" element={<Principal />} />
           <Route path="/" element={<Navigate to="/sunbridge-energy" replace />} />
-          <Route path="/clientes" element={<PrivateRoute><Cliente /></PrivateRoute>} />
-          <Route path="/clientes/:id" element={<PrivateRoute><ClienteDetalhes /></PrivateRoute>} />
-          <Route path="/cliente/novo" element={<PrivateRoute><NovoCliente /></PrivateRoute>} />
-          <Route path="/projetos" element={<PrivateRoute><Projetos /></PrivateRoute>} />
-          <Route path="/pedidocompra/:id" element={<PrivateRoute><PedidoCompra /></PrivateRoute>} />
-          <Route path="/empresas" element={<PrivateRoute><Empresa/></PrivateRoute>} />
-          <Route path="/empresas/:companyID" element={<PrivateRoute><EmpresaDetalhes/></PrivateRoute>} />
-          <Route path="/empresa/novo" element={<PrivateRoute><NovaEmpresa/></PrivateRoute>} />
+          <Route path="/clientes" element={<Cliente />} />
+          <Route path="/clientes/:id" element={<ClienteDetalhes />} />
+          <Route path="/cliente/novo" element={<NovoCliente />} />
+          <Route path="/projetos" element={<Projetos />} />
+          <Route path="/pedidocompra/:id" element={<PedidoCompra />} />
+          <Route path="/empresas" element={<Empresa/>} />
+          <Route path="/empresas/:companyID" element={<EmpresaDetalhes/>} />
+          <Route path="/empresa/novo" element={<NovaEmpresa/>} />
         </Routes>
       </Router>
     </AuthProvider>
