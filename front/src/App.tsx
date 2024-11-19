@@ -4,8 +4,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Cliente from './pages/clientes/Cliente';
 import ClienteDetalhes from './pages/clientesdetalhes/ClienteDetalhes';
 import Projetos from './pages/projetos/Projetos';
-import { AuthProvider } from './pages/login/AuthContext';
-import PrivateRoute from './pages/login/PrivateRoute';
 import NovoCliente from './pages/novocliente/NovoCliente';
 import PedidoCompra from './pages/pedidocompra/PedidoCompra';
 import Principal from './pages/principal/Principal';
