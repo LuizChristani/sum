@@ -6,7 +6,6 @@ import ClienteDetalhes from './pages/clientesdetalhes/ClienteDetalhes';
 import Projetos from './pages/projetos/Projetos';
 import { AuthProvider } from './pages/login/AuthContext';
 import PrivateRoute from './pages/login/PrivateRoute';
-import Login from './pages/login/Login';
 import NovoCliente from './pages/novocliente/NovoCliente';
 import PedidoCompra from './pages/pedidocompra/PedidoCompra';
 import Principal from './pages/principal/Principal';
