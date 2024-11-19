@@ -14,7 +14,6 @@ import NovaEmpresa from './pages/novaempresa/NovaEmpresa';
 
 const App: React.FC = () => {
   return (
-    <AuthProvider>
       <Router>
         <Routes>
         <Route path="/sunbridge-energy" element={<Principal />} />
@@ -29,7 +28,6 @@ const App: React.FC = () => {
           <Route path="/empresa/novo" element={<NovaEmpresa/>} />
         </Routes>
       </Router>
-    </AuthProvider>
   );
 };
 
