@@ -9,7 +9,7 @@ const Principal = () => {
                     <h1 className="text-4xl">Sunbridge Energy</h1>
                     <p className="text-xl mt-2">Iluminando o futuro com energia limpa.</p>
                 </div>
-                <Link to="/login"><div className="pt-3 pb-3 fixed top-9 right-0 mr-[3vw] bg-[#0064F3] pl-10 pr-10 rounded-[100px] hover:bg-blue-600">Login</div></Link>
+                <Link to="/clientes"><div className="pt-3 pb-3 fixed top-9 right-0 mr-[3vw] bg-[#0064F3] pl-10 pr-10 rounded-[100px] hover:bg-blue-600">Login</div></Link>
             </header>
 
             <main className="overflow-auto mt-[120px] flex-1">
