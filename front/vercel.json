@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)", // Qualquer rota
+      "destination": "/" // Direcione para o index.html
+    }
+  ]
+}
