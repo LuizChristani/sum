@@ -20,11 +20,11 @@ const ItensMenu: Record<string, Submenu> = {
     Comercial: {
         title: 'Comercial',
         options: [
-            { name: 'Clientes', link: 'http://localhost:5173/clientes' },
-            { name: 'Projetos', link: 'http://localhost:5173/projetos' },
+            { name: 'Clientes', link: 'https://sum-red.vercel.app/clientes' },
+            { name: 'Projetos', link: 'https://sum-red.vercel.app/projetos' },
             // { name: 'Contratos', link: 'http://localhost:5173/contratos' },
             // { name: 'Orçamentos', link: 'http://localhost:5173/orcamentos' },
-            { name: 'Pedido de Compra', link: 'http://localhost:5173/pedidocompra' },
+            { name: 'Pedido de Compra', link: 'https://sum-red.vercel.app/pedidocompra' },
         ],
     },
     // 'Pós-Venda': {
@@ -43,8 +43,8 @@ const ItensMenu: Record<string, Submenu> = {
     Avançado: {
         title: 'Avançado',
         options: [
-            { name: 'Cadastro de Usuario', link: 'http://localhost:5173/usuario' },
-            { name: 'Cadastro de Empresa', link: 'http://localhost:5173/empresas' },
+            { name: 'Cadastro de Usuario', link: 'https://sum-red.vercel.app/usuario' },
+            { name: 'Cadastro de Empresa', link: 'https://sum-red.vercel.app/empresas' },
         ],
     },
 };
